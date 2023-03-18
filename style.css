@@ -1,0 +1,180 @@
+*{
+    font-family: system-ui;
+    font-weight: 400;
+
+}
+.div-border-1 {
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+   text-transform: capitalize;
+    font-size: 50px;
+}
+
+.img-border {
+    border: 1px solid;
+}
+
+
+
+.div-box {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border: solid 1px black;
+    
+}
+
+img {
+    border: 1px solid black;
+    height: 250px;
+    vertical-align: middle;
+}
+
+p {
+    text-align: center;
+}
+
+h1.h1-text-content {
+    text-align: center;
+    font-weight: bolder;
+    font-family: math;
+    font-size: 27px;
+}
+
+.content-border {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.div1-box {
+    display: flex;
+    margin: 25px 125px 25px 125px;
+    align-items: center;
+}
+
+b {
+    text-transform: capitalize;
+    margin-left: 8%;
+    font-size: 45px;
+}
+
+
+@media screen and (max-width:1440px) and (min-width:769px){
+
+
+  b {
+    margin-left: 8%;
+    font-size: 90%;
+}
+  .div1-box {
+    margin: 25px 20% 25px 20%;
+}
+}
+
+@media screen and (max-width:769px) and (min-width:430px){
+
+  h1 {
+    
+    font-size: 35px;
+}
+
+  .div1-box {
+    margin: 25px 50px 25px 50px;
+}
+
+  img {
+    height: 150px;
+}
+
+  b {
+  
+    font-size: 25px;
+}
+
+  .div-box {
+    display: inline-block;
+    width: 47%;
+    margin: 1%;
+    border: solid 1px black;
+}
+  
+}
+
+
+@media screen and (max-width:2570px) and (min-width:2000px){
+
+.div1-box {
+    display: flex;
+    margin: 25px 500px 25px 500px;
+    align-items: center;
+}
+}
+
+@media screen and (max-width:430px) and (min-width:370px){
+
+  .div1-box {
+    display: block;
+    margin: 25px 25px 25px 25px;
+    align-items: center;
+}
+
+  h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 28px;
+}
+
+  
+  
+  img{
+    width:100%;
+  }
+
+  .div-box {
+    display: inline-block;
+    width: 94%;
+    margin: 10px;
+    border: solid 1px black;
+}
+b {
+    text-transform: capitalize;
+    margin-left: 15%;
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width:370px) and (min-width:300px){
+
+  .div1-box {
+    display: block;
+    margin: 25px 25px 25px 25px;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 900;
+}
+  
+  img{
+    width:100%;
+  }
+
+  .div-box {
+    display: inline-block;
+    width: 94%;
+    margin: 10px;
+    border: solid 1px black;
+}
+b {
+    text-transform: capitalize;
+    margin-left: 10%;
+    font-size: 15px;
+}
+}

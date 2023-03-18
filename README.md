@@ -1,2 +1,5 @@
-# banoqabil_assignment2
-Hosting my homework for you!
+# Hi, There! 👋 
+## Thats how it looks alike! 
+<img src='assignment2.png' />
+
+# Regards ❤️
